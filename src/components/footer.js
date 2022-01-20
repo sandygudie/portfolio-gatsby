@@ -8,7 +8,7 @@ function Footer() {
       <h1 className=" font-bold pt-[1em]  m-0 mt-6 text-[#73ccbf] text-[25px] md:text-3xl  xl:pt-[2em]">
         Contact
       </h1>
-      <div className="gap-[20px] pt-2 m-auto items-center flex justify-center ">
+      <div className="gap-[40px] pt-2 m-auto items-center flex justify-center md:gap-[20px]">
         <a className="shadow-lg" href="mailto:sandygoodnews@gmail.com">
           <MdEmail />
         </a>

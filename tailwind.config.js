@@ -18,7 +18,7 @@ module.exports = {
         "3xl": "inset 0 0 20px rgba(255, 255, 255, 0)",
       },
       fontFamily: {
-        // sans: [ "Helvetica", "Arial", "Roboto", "sans-serif"],
+        // sans: [ "Pinyon-Script", "Helvetica", "Arial", "Roboto", "sans-serif"],
         sans: [ "Axiforma","Segoe UI","Tahoma","Geneva","Verdana","sans-serif"],
         serif: ["Merriweather", "serif"],
       },

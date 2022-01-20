@@ -5,10 +5,11 @@ import { BiLinkExternal } from "react-icons/bi"
 
 function Projects() {
   return (
-    <div  id="project" className=" py-[5em] shadow-lg w-[85%] m-auto xl:pt-[8em] ">
-      <h1
-        className=" text-center font-bold  py-[1em] m-0 text-bold mt-6 text-[#73ccbf] text-[25px] md:text-3xl  xl:py-[2em]"
-      >
+    <div
+      id="project"
+      className=" py-[5em] shadow-lg w-[85%] m-auto xl:pt-[8em] "
+    >
+      <h1 className=" text-center font-bold  py-[1em] m-0 text-bold mt-6 text-[#73ccbf] text-[25px] md:text-3xl  xl:py-[2em]">
         Projects
       </h1>
 
@@ -29,7 +30,9 @@ function Projects() {
           >
             <BiLinkExternal className=" m-4 float-right text-2xl text-[#73ccbf]" />{" "}
             <div className=" absolute left-2/4 top-2/4 w-4/5  translate-x-2/4 translate-y-2/4  leading-6 w-[80%]">
-              <h2 className=" text-[18px] text-[#73ccbf] font-bold">TutorHub</h2>
+              <h2 className=" text-[18px] text-[#73ccbf] font-bold">
+                TutorHub
+              </h2>
               <p className="text-[16px]">
                 {" "}
                 Find online tutors. You can schedule for one-on-one or group
@@ -59,7 +62,10 @@ function Projects() {
             <BiLinkExternal className=" m-4 float-right text-2xl text-[#73ccbf]" />{" "}
             <div className="absolute left-2/4 top-2/4 w-4/5  translate-x-2/4 translate-y-2/4  leading-6 w-[80%]">
               <h2 className=" text-[18px] text-[#73ccbf] font-bold">LaunMax</h2>
-              <p className="text-[16px]"> Official Website for a Laundry Business Mobile App. </p>
+              <p className="text-[16px]">
+                {" "}
+                Official Website for a Laundry Business Mobile App.{" "}
+              </p>
             </div>
             <ul className=" flex justify-between items-center w-1/2 absolute bottom-3 left-5 text-[0.7rem]  tracking-wide ">
               <li>HTML</li>
@@ -84,8 +90,10 @@ function Projects() {
           >
             <BiLinkExternal className=" m-4 float-right text-2xl text-[#73ccbf]" />
             <div className="absolute left-2/4 top-2/4 w-4/5  translate-x-2/4 translate-y-2/4 leading-6 w-[80%]">
-              <h2 className=" text-[18px] text-[#73ccbf] font-bold">MicroApi</h2>
-              <p  className="text-[16px]">
+              <h2 className=" text-[18px] text-[#73ccbf] font-bold">
+                MicroApi
+              </h2>
+              <p className="text-[16px]">
                 APIs for developers, you can easily integrated into projects.{" "}
               </p>
             </div>
@@ -110,8 +118,12 @@ function Projects() {
           >
             <BiLinkExternal className=" m-4 float-right text-2xl text-[#73ccbf]" />{" "}
             <div className="absolute left-2/4 top-2/4 w-4/5  translate-x-2/4 translate-y-2/4 leading-6 w-[80%]">
-              <h2 className=" text-[18px]  text-[#73ccbf] font-bold ">RexHot</h2>
-              <p className="text-[16px]">Creators get rewards for creativity.</p>
+              <h2 className=" text-[18px]  text-[#73ccbf] font-bold ">
+                RexHot
+              </h2>
+              <p className="text-[16px]">
+                Creators get rewards for creativity.
+              </p>
             </div>{" "}
             <ul className=" flex justify-between items-center w-1/2 absolute bottom-3 left-5 text-[0.7rem] py-4 tracking-wide ">
               <li>REACT</li>
@@ -134,8 +146,13 @@ function Projects() {
           >
             <BiLinkExternal className=" m-4 float-right text-2xl text-[#73ccbf]" />{" "}
             <div className="absolute left-2/4 top-2/4   translate-x-2/4 translate-y-2/4  leading-6 w-[80%]">
-              <h2 className=" text-[18px] text-[#73ccbf] font-bold">ShoeBooth</h2>
-              <p className="text-[16px] "> An ecommerce app for women footwears. </p>
+              <h2 className=" text-[18px] text-[#73ccbf] font-bold">
+                ShoeBooth
+              </h2>
+              <p className="text-[16px] ">
+                {" "}
+                An ecommerce app for women footwears.{" "}
+              </p>
             </div>
             <ul className=" flex justify-between items-center w-[1/2] absolute bottom-3 left-5 text-[0.7rem]  tracking-wide ">
               <li>VANILLAJS</li>
@@ -159,7 +176,9 @@ function Projects() {
           >
             <BiLinkExternal className=" m-4 float-right text-2xl text-[#73ccbf]" />
             <div className="absolute left-2/4 top-2/4   translate-x-2/4 translate-y-2/4  leading-6 w-[80%]">
-              <h2 className=" text-[16px] text-[#73ccbf]  font-bold ">Networth</h2>
+              <h2 className=" text-[16px] text-[#73ccbf]  font-bold ">
+                Networth
+              </h2>
               <p className="text-[18px]"> Keep track of your asests.</p>
             </div>
 

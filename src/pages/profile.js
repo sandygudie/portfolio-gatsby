@@ -3,7 +3,7 @@ import React from "react"
 
 function Sidebar() {
   return (
-    <div  id="profile" className="h-[70vh] relative w-full  text-white  shadow-lg w-6/6 md:md:h-[50vh] xl:h-[100vh]">
+    <div  id="profile" className="h-[100vh] relative w-full  text-white  shadow-lg w-6/6 md:md:h-[50vh] xl:h-[100vh]">
     
 
       <div className=" top-[60%] w-[90%] absolute left-2/4 top-2/4  font-bold translate-x-2/4 translate-y-2/4   text-center page--details ">

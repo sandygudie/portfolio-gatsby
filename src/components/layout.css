@@ -1,8 +1,8 @@
 body {
   height: 100%;
   font-display: swap;
-  background-color: #1a202c;
-  font-family: "Pinyon Script", cursive;
+  background-color: rgb(26, 33, 45);
+  font-family: "Gilroy", "Arial", "Roboto", "sans-serif" ;
   overflow-y: scroll;
 }
 
