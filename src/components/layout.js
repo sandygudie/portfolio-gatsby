@@ -6,7 +6,7 @@ import "./layout.css"
 const Layout = ({ children }) => {
   return (
     <>
-      <main className=" md:font-[cursive] layout__container">{children}</main>
+      <main className=" xl:font-[cursive] layout__container">{children}</main>
     </>
   )
 }
