@@ -3,7 +3,7 @@ body {
   font-display: swap;
   background-color: #1a202c;
   font-family: "Pinyon Script", cursive;
-  overflow: scroll;
+  overflow-y: scroll;
 }
 
 .layout__container {
