@@ -9,18 +9,18 @@ function Footer() {
         Contact
       </h1>
       <div className="gap-[40px] pt-2 m-auto items-center flex justify-center md:gap-[20px]">
-        <a className="shadow-lg" href="mailto:sandygoodnews@gmail.com">
+        <a className="mr-3" href="mailto:sandygoodnews@gmail.com">
           <MdEmail />
         </a>
-        <a href="https://github.com/sandygudie">
+        <a className="mr-3" href="https://github.com/sandygudie">
           {" "}
           <FaGithub />
         </a>
-        <a href="https://www.linkedin.com/in/goodnews-sandy-613936179/">
+        <a className="mr-3" href="https://www.linkedin.com/in/goodnews-sandy-613936179/">
           {" "}
           <FaLinkedinIn />
         </a>
-        <a href="https://sandygoody.medium.com/">
+        <a className="mr-3" href="https://sandygoody.medium.com/">
           {" "}
           <AiOutlineMedium />
         </a>
