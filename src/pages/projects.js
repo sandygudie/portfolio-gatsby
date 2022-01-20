@@ -53,10 +53,10 @@ function Projects() {
             quality={95}
             formats={["auto", "webp", "avif"]}
             alt="tutorhub"
-            class="h-full w-full "
+            class="h-full w-full  rounded-lg"
           />
           <a
-            className=" absolute top-0 left-0 bg-[#000000] h-full w-full "
+            className=" rounded-lg absolute top-0 left-0 bg-[#000000] h-full w-full "
             href="https://launmax.netlify.app/"
           >
             <BiLinkExternal className=" m-4 float-right text-2xl text-[#73ccbf]" />{" "}
@@ -82,10 +82,10 @@ function Projects() {
             quality={95}
             formats={["auto", "webp", "avif"]}
             alt="tutorhub"
-            class="h-full w-full"
+            class="h-full w-full  rounded-lg"
           />
           <a
-            className=" absolute top-0 left-0 bg-[#000000] h-full w-full "
+            className=" rounded-lg absolute top-0 left-0 bg-[#000000] h-full w-full "
             href="https://microapicore.herokuapp.com/"
           >
             <BiLinkExternal className=" m-4 float-right text-2xl text-[#73ccbf]" />
@@ -110,10 +110,10 @@ function Projects() {
             quality={95}
             formats={["auto", "webp", "avif"]}
             alt="tutorhub"
-            class="h-full w-full"
+            class="h-full w-full  rounded-lg"
           />
           <a
-            className="absolute top-0 left-0 bg-[#000000] h-full w-full "
+            className=" rounded-lg absolute top-0 left-0 bg-[#000000] h-full w-full "
             href="https://terms-goodnewssandy.vercel.app/"
           >
             <BiLinkExternal className=" m-4 float-right text-2xl text-[#73ccbf]" />{" "}
@@ -138,10 +138,10 @@ function Projects() {
             quality={95}
             formats={["auto", "webp", "avif"]}
             alt="tutorhub"
-            class="h-full w-full"
+            class="h-full w-full  rounded-lg"
           />
           <a
-            className=" absolute top-0 left-0 bg-[#000000] h-full w-full "
+            className=" rounded-lg absolute top-0 left-0 bg-[#000000] h-full w-full "
             href="https://womenheels.netlify.app/"
           >
             <BiLinkExternal className=" m-4 float-right text-2xl text-[#73ccbf]" />{" "}
@@ -168,10 +168,10 @@ function Projects() {
             quality={95}
             formats={["auto", "webp", "avif"]}
             alt="tutorhub"
-            class="h-full w-full"
+            class="h-full w-full  rounded-lg"
           />
           <a
-            className=" absolute top-0 left-0 bg-[#000000] h-full w-full "
+            className=" rounded-lg absolute top-0 left-0 bg-[#000000] h-full w-full "
             href="https://mynetworth.netlify.app/"
           >
             <BiLinkExternal className=" m-4 float-right text-2xl text-[#73ccbf]" />
