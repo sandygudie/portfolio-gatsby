@@ -125,7 +125,7 @@ function Projects() {
                 Creators get rewards for creativity.
               </p>
             </div>{" "}
-            <ul className=" flex justify-between items-center w-1/2 absolute bottom-3 left-5 text-[0.7rem] py-4 tracking-wide ">
+            <ul className=" flex justify-between items-center w-1/2 absolute bottom-3 left-5 text-[0.7rem]  tracking-wide ">
               <li>REACT</li>
             </ul>
           </a>
@@ -154,7 +154,7 @@ function Projects() {
                 An ecommerce app for women footwears.{" "}
               </p>
             </div>
-            <ul className=" flex justify-between items-center w-[1/2] absolute bottom-3 left-5 text-[0.7rem]  tracking-wide ">
+            <ul className=" flex justify-between items-center w-[75%] absolute bottom-3 left-5 text-[0.7rem]  tracking-wide ">
               <li>VANILLAJS</li>
               <li>CONTENTFUL</li>
             </ul>
@@ -186,6 +186,35 @@ function Projects() {
               <li>HTML</li>
               <li>SASS</li>
               <li> JS</li>
+            </ul>
+          </a>
+        </div>
+        <div className="project_card  shadow-lg my-6 rounded-lg   relative text-white md:w-[300px] md:h-[300px]  lg:h-[350px] lg:w-[350px] xl:h-[250px] xl:w-[250px]  md:my-0">
+          <StaticImage
+            src="../images/workertracker.png"
+            width={200}
+            height={200}
+            quality={95}
+            formats={["auto", "webp", "avif"]}
+            alt="tutorhub"
+            class="h-full w-full  rounded-lg"
+          />
+          <a
+            className=" rounded-lg absolute top-0 left-0 bg-[#000000] h-full w-full "
+            href="https://goodnewssandy.netlify.app/"
+          >
+            <BiLinkExternal className=" m-4 float-right text-2xl text-[#73ccbf]" />
+            <div className="absolute left-2/4 top-2/4   translate-x-2/4 translate-y-2/4  leading-6 w-[80%]">
+              <h2 className=" text-[16px] text-[#73ccbf]  font-bold ">
+              Portfolio
+              </h2>
+              {/* <p className="text-[18px]"> Keep track of your asests.</p> */}
+            </div>
+
+            <ul className=" flex justify-between items-center w-[55%] absolute bottom-3 left-5 text-[0.7rem]  tracking-wide ">
+              <li>Gatsby</li>
+              <li>TailwindCSS</li>
+             
             </ul>
           </a>
         </div>
