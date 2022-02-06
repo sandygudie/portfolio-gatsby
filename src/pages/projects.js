@@ -104,34 +104,34 @@ function Projects() {
             </ul>
           </a>
         </div>
-//         <div className="project_card  shadow-lg my-6 rounded-lg   relative text-white md:w-[300px] md:h-[300px]  lg:h-[350px] lg:w-[350px] xl:h-[250px] xl:w-[250px]  md:my-0">
-//           <StaticImage
-//             src="../images/MicroApi.png"
-//             width={200}
-//             height={200}
-//             quality={95}
-//             formats={["auto", "webp", "avif"]}
-//             alt="tutorhub"
-//             class="h-full w-full  rounded-lg"
-//           />
-//           <a
-//             className=" rounded-lg absolute top-0 left-0 bg-[#000000] h-full w-full "
-//             href="https://microapicore.herokuapp.com/"
-//           >
-//             <BiLinkExternal className=" m-4 float-right text-2xl text-[#73ccbf]" />
-//             <div className="absolute left-2/4 top-2/4 w-4/5  translate-x-2/4 translate-y-2/4 leading-6 w-[80%]">
-//               <h2 className=" text-[18px] text-[#73ccbf] font-bold">
-//                 MicroApi
-//               </h2>
-//               <p className="text-[16px]">
-//                 APIs for developers, you can easily integrated into projects.{" "}
-//               </p>
-//             </div>
-//             <ul className=" flex justify-between items-center w-1/2 absolute bottom-3 left-5 text-[0.7rem]  tracking-wide ">
-//               <li>PYTHON</li>
-//             </ul>
-//           </a>
-//         </div>
+        <div className="project_card  shadow-lg my-6 rounded-lg   relative text-white md:w-[300px] md:h-[300px]  lg:h-[350px] lg:w-[350px] xl:h-[250px] xl:w-[250px]  md:my-0">
+          <StaticImage
+            src="../images/MicroApi.png"
+            width={200}
+            height={200}
+            quality={95}
+            formats={["auto", "webp", "avif"]}
+            alt="tutorhub"
+            class="h-full w-full  rounded-lg"
+          />
+          <a
+            className=" rounded-lg absolute top-0 left-0 bg-[#000000] h-full w-full "
+            href="https://microapicore.herokuapp.com/"
+          >
+            <BiLinkExternal className=" m-4 float-right text-2xl text-[#73ccbf]" />
+            <div className="absolute left-2/4 top-2/4 w-4/5  translate-x-2/4 translate-y-2/4 leading-6 w-[80%]">
+              <h2 className=" text-[18px] text-[#73ccbf] font-bold">
+                MicroApi
+              </h2>
+              <p className="text-[16px]">
+                APIs for developers, you can easily integrated into projects.{" "}
+              </p>
+            </div>
+            <ul className=" flex justify-between items-center w-1/2 absolute bottom-3 left-5 text-[0.7rem]  tracking-wide ">
+              <li>PYTHON</li>
+            </ul>
+          </a>
+        </div>
         <div className="project_card  shadow-lg my-6 rounded-lg   relative text-white md:w-[300px] md:h-[300px]  lg:h-[350px] lg:w-[350px] xl:h-[250px] xl:w-[250px]  md:my-0">
           <StaticImage
             src="../images/Rexhot.png"
