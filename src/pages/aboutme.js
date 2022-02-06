@@ -34,7 +34,7 @@ function Aboutme() {
           </p>
 
           <p className="pt-2">
-            I love contributing to open source and sharing technical topics on
+            I contribute to open source and share technical topics on
             my <span className="text-[#73ccbf] text-bold">Blog.</span> And, I
             love the thrills of{" "}
             <span className="text-[#73ccbf] text-bold">Startups.</span>{" "}
