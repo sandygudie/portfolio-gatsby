@@ -35,7 +35,7 @@ function Projects() {
               </h2>
               <p className="text-[16px]">
                 {" "}
-                For Trading LTT.{" "}
+                A trading platform for LTT.{" "}
               </p>
             </div>{" "}
             <ul className=" flex justify-between items-center  w-1/2 absolute bottom-3 left-5 text-[0.7rem]  tracking-wide ">
