@@ -1,10 +1,10 @@
 import React from "react"
-import Seo from "../components/Seo"
+import Seo from "../components/seo"
 import Profile from "./profile"
 import Projects from "./projects"
 import Aboutme from "./aboutme"
-import Header from "../components/Header"
-import Footer from "../components/Footer"
+import Header from "../components/header"
+import Footer from "../components/footer"
 
 const IndexPage = () => {
   return (
