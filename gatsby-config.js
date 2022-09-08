@@ -5,7 +5,7 @@ module.exports = {
     author: `@goodnewssandy`,
     siteUrl: `https://goodnewssandy.netlify.app/`,
     keywords: `frontend, developer,web ,software, tech,portfolio,design, interface`,
-    image: `src/images/profilephotowhite.jpg`,
+    image: `src/images/profile-image.PNG`,
     themecolor: `#0e1217`,
   },
   plugins: [
@@ -29,7 +29,7 @@ module.exports = {
         start_url: `/`,
         background_color: `#663399`,
         display: `minimal-ui`,
-        icon: `src/images/icon.png`,
+        icon: `src/images/profile-image.PNG`,
       },
     },
   ],
