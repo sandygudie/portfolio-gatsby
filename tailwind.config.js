@@ -2,30 +2,26 @@ module.exports = {
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
     extend: {
+      colors: {
+        primary: "hsl(171deg 47% 63%)",
+        secondary: "hsl(220deg 26% 14%)",
+        red_light: "hsl(0deg 84% 60%)",
+        dark: "hsl(0deg 0% 0%)",
+        white: "hsl(0deg 0% 100%)",
+      },
       screens: {
         sm: "480px",
         md: "768px",
         lg: "1024px",
         xl: "1280px",
       },
-      borderRadius: {
-        "3xl": "100%",
-      },
       translate: {
         "2/4": "-50%",
       },
-      boxShadow: {
-        "3xl": "inset 0 0 20px rgba(255, 255, 255, 0)",
-      },
+
       fontFamily: {
-        // sans: [ "Pinyon-Script", "Helvetica", "Arial", "Roboto", "sans-serif"],
-        sans: [ "Axiforma","Segoe UI","Tahoma","Geneva","Verdana","sans-serif"],
-        serif: ["Merriweather", "serif"],
+        cursive: "cursive, sans-serif",
       },
-      letterSpacing: {
-      
-        widest: '0.6em',
-      }
     },
   },
   plugins: [],
