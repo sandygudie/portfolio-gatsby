@@ -12,5 +12,5 @@ body {
 }
 html,
 body {
-  @apply bg-secondary font-cursive text-white;
+  @apply bg-secondary xl:font-cursive text-white;
 }
