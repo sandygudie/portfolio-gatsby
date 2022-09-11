@@ -2,7 +2,9 @@ import React from "react"
 import { BiLinkExternal } from "react-icons/bi"
 import { FaGithub } from "react-icons/fa"
 
-function Projects() {
+
+function Projects(imagedata) {
+  
   const project = [
     {
       id: 0,
@@ -88,7 +90,7 @@ function Projects() {
       <div className="my-8 flex justify-center flex-wrap gap-6">
         {project.map(item => {
           return (
-            <a
+            <div
               key={item.id}
               className="w-80 h-80  rounded-lg my-6 bg-dark relative lg:w-96 lg:h-96 md:w-80 md:h-80  hover:bg-dark/5 hover:border-primary hover:border-2"
               href={item.link}
@@ -109,12 +111,12 @@ function Projects() {
               <div className="absolute bottom-2 p-6">
                 <p className="text-sm text-primary">Built with:</p>
                 <ul className="flex gap-x-4 flex-wrap justify-start items-center text-xs">
-                  {item.tools.map(list => {
-                    return <li>{list},</li>
+                  {item.tools.map((list, i) => {
+                    return <li key={i}>{list},</li>
                   })}
                 </ul>
               </div>
-            </a>
+            </div>
           )
         })}
       </div>

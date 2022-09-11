@@ -14,3 +14,31 @@ html,
 body {
   @apply bg-secondary xl:font-cursive text-white;
 }
+
+.loader-container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  z-index: 1;
+}
+
+.spinner {
+  width: 75px;
+  height: 75px;
+  border: 13px solid;
+  border-color: #3d5af1 #bf1d1d #d0f13d #000000f5;
+  border-radius: 50%;
+  animation: spin-anim 1.2s linear infinite;
+}
+
+@keyframes spin-anim {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}

@@ -30,29 +30,29 @@ function Aboutme() {
             I love the thrills of{" "}
             <span className="text-primary">Startups.</span>{" "}
           </p>
-          <p className="pt-2">
+          <div className="pt-2">
             {" "}
             Some tools/technologies i have work with includes:
-            <ul>
-              <li>
+            <div>
+              <p>
                 {" "}
                 <span className="text-primary">Technologies: </span> HTML, CSS,
                 SASS, TypeScript, JavaScript,
-              </li>
-              <li>
+              </p>
+              <p>
                 <span className="text-primary">Styling libraries: </span>
                 TailwindCSS, Material UI
-              </li>
-              <li>
+              </p>
+              <p>
                 <span className="text-primary">Framework :</span> ReactJs, Vite,
                 NextJs, Gatsby
-              </li>
-              <li>
+              </p>
+              <p>
                 <span className="text-primary">Backend Tools:</span> NodeJs,
                 Firebase
-              </li>
-            </ul>
-          </p>
+              </p>
+            </div>
+          </div>
           <a
             className="rounded-md p-2 font-bold border border-white bg-white w-24 text-secondary hover:bg-transparent md:hidden"
             href="https://docs.google.com/document/d/1TGO4P6XlqEZfvw5tUH4uoEaLKvWILtxAAinyAPIGC8U/edit?usp=sharing"
