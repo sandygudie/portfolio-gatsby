@@ -37,10 +37,9 @@ export const pageQuery = graphql`
 `
 
 const IndexPage = props => {
-  const [loading, setLoading] = useState(false)
+  const [loading, setLoading] = useState(true)
 
   useEffect(() => {
-    setLoading(true)
     setTimeout(() => {
       setLoading(false)
     }, 2000)
