@@ -90,7 +90,7 @@ function Projects(imagedata) {
       <div className="my-8 flex justify-center flex-wrap gap-6">
         {project.map(item => {
           return (
-            <div
+            <a
               key={item.id}
               className="w-80 h-80  rounded-lg my-6 bg-dark relative lg:w-96 lg:h-96 md:w-80 md:h-80  hover:bg-dark/5 hover:border-primary hover:border-2"
               href={item.link}
@@ -116,7 +116,7 @@ function Projects(imagedata) {
                   })}
                 </ul>
               </div>
-            </div>
+            </a>
           )
         })}
       </div>
